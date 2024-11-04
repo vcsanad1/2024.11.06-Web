@@ -1,0 +1,66 @@
+
+body {
+    background-image: url('images/comics.png');
+    padding: 20px;
+    text-align: justify; 
+}
+
+
+h1 {
+    font-size: 2em;
+    color: #7D0C37; 
+    text-align: center;
+	font-style:
+}
+
+
+.film {
+    border: 1px dashed #7D0C37; 
+    border-collapse: collapse;
+    padding: 8px; 
+    text-align: center;
+}
+
+
+img {
+    display: block;
+    margin: 10px auto; 
+}
+
+.img-thumbnail {
+    border-radius: 5px;
+}
+
+
+header a:hover {
+    color: gold;
+    background-color: rgb(90, 0, 0); 
+    text-decoration: underline;
+}
+
+
+.bevetel {
+    font-style: italic;
+    font-weight: bold;
+    color: darkred; 
+}
+
+
+.container {
+    padding: 20px; 
+}
+
+
+.col-lg-4 {
+    float: left;
+    width: 33.3333%;
+    padding: 20px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+

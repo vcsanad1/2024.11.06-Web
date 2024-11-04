@@ -1,0 +1,48 @@
+/* Add a semi-transparent background to text for better readability */
+section {
+    background-color: rgba(255, 255, 255, 0.8); /* Light white background with some transparency */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for a softer look */
+}
+
+/* Navigation menu hover effect */
+nav a:hover {
+    color: gold;
+    background-color: rgb(90, 0, 0); 
+    text-decoration: underline; 
+}
+
+
+img {
+    display: block;
+    margin: 10px auto; 
+}
+
+
+th, td {
+    border: 1px dashed #7D0C37;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgba(125, 12, 55, 0.1); 
+}
+
+
+#header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+section {
+    padding: 20px;
+}
+
+
+body {
+    background-image: url('images/comics.png');
+    background-size: cover; 
+    background-attachment: fixed; 
+}
