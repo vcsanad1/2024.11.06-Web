@@ -170,7 +170,10 @@ footer
 {
 	color:black;
 	font-family:'Courier New', Courier, monospace
-	font-size:7px;
-	margin-right:10px;
-	
+
+}
+.dog
+{
+	color:pink;
+	background-color:dark red;
 }
