@@ -1,0 +1,20 @@
+body
+{
+    background-image:url('funny.jpg') ;
+    background-repeat:no-repeat;
+}
+.container
+{
+background-color: rgb(0, 0, 0);
+padding:3px;
+}
+.row
+{
+border:1px solid black;
+}
+.col
+{
+    margin:3px;
+border:1px dotted blue;
+
+}
