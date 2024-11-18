@@ -34,9 +34,9 @@ body{
 
 .feher-hatteres{
 	background-color:lightgray;
-	width: 50%;
+	
 	float: left;
-	height: 100%;
+	
 	text-align: center;
 	opacity:0.5;/*[0.1]->[0,.100%]*/
 	/*
