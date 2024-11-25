@@ -67,3 +67,17 @@ color:green;
     margin-top: 10px;
     text-shadow: 2px 2px 4px #000000;
 }
+.div
+{
+    text-align: center;
+    border-style: solid;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    
+}
+
