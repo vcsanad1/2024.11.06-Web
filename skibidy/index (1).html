@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Űrlap</title>
+</head>
+
+<body>
+    <h1 class="h">Űrlap használat</h1>
+    <form>
+        <p>
+        <label class="nev">Név:</label>
+        <input type="text" placeholder="példaszöveg" >
+    </p>
+    <p>
+        <label class="email">email:</label>
+        <input type="email" placeholder="valami@valami.v">
+    </p>
+    <p>
+        <label class="szuletesi">Születési év:</label>
+        <input type="number" value="2000" min="1904" max="2024">
+    </p>
+    <p>
+        <label class="iskolai">Legmagasabb iskolai végzettség:</label></p>
+        <input type="radio" name="vegzettseg" title="Kattintson rám!">
+        <label>8 általános</label>
+        <br>
+        <input type="radio" name="vegzettseg">
+        <label>Érettségi</label>
+        <br>
+        <input type="radio" name="vegzettseg">
+        <label>Főiskola</label>
+        <br>
+        <input type="radio" name="vegzettseg">
+        <label>Egyetem</label>
+        <br>
+    </p>
+    <p>
+        <label class="nem">Nem:</label></p>
+        <input type="radio" name="vegzettseg" title="Kattintson rám!" >
+        <label>Férfi</label>
+        <br>
+        <input type="radio" name="vegzettseg">
+        <label>Nő</label>
+        <br>
+        
+    </p>
+    <label class="szinek">Kedvenc színe(i)</label>
+    <p>
+        <input type="checkbox" value="zöld" >
+        <label class="zold" >zöld</label>
+        <br>
+        <input type="checkbox" value="piros">
+        <label class="piros">piros</label>
+        <br>
+        <input type="checkbox" value="kék">
+        <label class="kek" >kék</label>
+        <br>
+        <input type="checkbox" value="fekete" >
+        <label class="feka">fekete</label>
+        <br>
+
+    </p>
+    <input type="button" value="OK"  class="adatok" title="Ezzel a gombbal veglegesen elmenti az ürlapot!">
+    <input type="submit" class="adatok" title="Ezzel a gombbal beküldi!">
+    <button class="adatok" title="Ezzel a gombbal kilép!">Kilépés</button>
+    <input type="reset" value="Adatok törlése" class="adatok" title="Ezzel a gombbal törli az adatokat!">
+    </form>
+</body>
+
+</html>

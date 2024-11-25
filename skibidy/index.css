@@ -1,0 +1,69 @@
+body
+{
+background-image: url('https://coolbackgrounds.io/images/backgrounds/white/white-trianglify-b79c7e1f.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+}
+.zold
+{
+color:green;
+}
+.piros
+{
+    color:red;
+}
+.kek
+{
+    color:blue;
+}
+.feka
+{
+    color:black;
+}
+.szinek
+{
+    background-color:rgb(54, 137, 158);
+    color:white;
+    border-style: solid;
+    border-color: black;
+}
+.h
+{
+    border-style: solid;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #000000;
+}
+.iskolai
+{
+    text-decoration: underline;
+}
+.nev
+{
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.email
+{
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #000000;
+}
+.szuletesi
+{
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #000000;
+}
+.nem
+{
+    text-decoration: underline;
+    
+}
+.adatok
+{
+    text-decoration: underline;
+    border-style: solid;
+    margin-left: 5px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 4px #000000;
+}
