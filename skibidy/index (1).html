@@ -10,99 +10,115 @@
 
 <body>
     <div class="div">
-    <h1 class="h">Űrlap használat</h1>
-    <form>
-        <fieldset>
-            <legend><b>Személyes adatok</b></legend>
+        <h1 class="h">Űrlap használat</h1>
+        <form>
+            <fieldset>
+                <legend><b>Személyes adatok</b></legend>
+                <p>
+                    <label class="nev">Név:</label>
+                    <input type="text" placeholder="példaszöveg">
+                </p>
+                <p>
+                    <label class="email">email:</label>
+                    <input type="email" placeholder="valami@valami.v">
+                </p>
+                <p>
+                    <label class="szuletesi">Születési év:</label>
+                    <input type="number" value="2000" min="1904" max="2024">
+                </p>
+                <p></p>
+                <label class="nem">Nem:</label></p>
+                <input type="radio" name="vegzettseg" title="Kattintson rám!">
+                <label>Férfi</label>
+                <br>
+                <input type="radio" name="vegzettseg">
+                <label>Nő</label>
+                </p>
+            </fieldset>
             <p>
-                <label class="nev">Név:</label>
-                <input type="text" placeholder="példaszöveg">
-            </p>
-            <p>
-                <label class="email">email:</label>
-                <input type="email" placeholder="valami@valami.v">
-            </p>
-            <p>
-                <label class="szuletesi">Születési év:</label>
-                <input type="number" value="2000" min="1904" max="2024">
-            </p>
-            <p></p>
-            <label class="nem">Nem:</label></p>
-            <input type="radio" name="vegzettseg" title="Kattintson rám!">
-            <label>Férfi</label>
-            <br>
-            <input type="radio" name="vegzettseg">
-            <label>Nő</label>
-            </p>
-        </fieldset>
-        <p>
-        <fieldset>
-            <label class="iskolai">Legmagasabb iskolai végzettség:</label></p>
-            <input type="radio" name="vegzettseg" title="Kattintson rám!">
-            <label>8 általános</label>
-            <br>
-            <input type="radio" name="vegzettseg">
-            <label>Érettségi</label>
-            <br>
-            <input type="radio" name="vegzettseg">
-            <label>Főiskola</label>
-            <br>
-            <input type="radio" name="vegzettseg">
-            <label>Egyetem</label>
-            <br>
-            </p>
-            <p>
+            <fieldset>
+                <label class="iskolai">Legmagasabb iskolai végzettség:</label></p>
+                <input type="radio" name="vegzettseg" title="Kattintson rám!">
+                <label>8 általános</label>
+                <br>
+                <input type="radio" name="vegzettseg">
+                <label>Érettségi</label>
+                <br>
+                <input type="radio" name="vegzettseg">
+                <label>Főiskola</label>
+                <br>
+                <input type="radio" name="vegzettseg">
+                <label>Egyetem</label>
+                <br>
+                </p>
+                <p>
 
 
-            </p>
-            <label class="szinek">Kedvenc színe(i)</label>
-            <p>
-                <input type="checkbox" value="zöld">
-                <label class="zold">zöld</label>
-                <br>
-                <input type="checkbox" value="piros">
-                <label class="piros">piros</label>
-                <br>
-                <input type="checkbox" value="kék">
-                <label class="kek">kék</label>
-                <br>
-                <input type="checkbox" value="fekete">
-                <label class="feka">fekete</label>
-                <br>
-        </fieldset>
-        <fieldset>
-            <legend><b>Valasszon mindegyikből egyet</b></legend>
-            <label>Kedvenc automárka</label>
-            <select size="4" multiple>
-                <option value="suzuki">Suzuki</option>
-                <option value="suzuki">Bmw</option>
-                <option value="suzuki" selected>Mercedes</option>
-                <option value="suzuki">Mclaren</option>
+                </p>
+                <label class="szinek">Kedvenc színe(i)</label>
+                <p>
+                    <input type="checkbox" value="zöld">
+                    <label class="zold">zöld</label>
+                    <br>
+                    <input type="checkbox" value="piros">
+                    <label class="piros">piros</label>
+                    <br>
+                    <input type="checkbox" value="kék">
+                    <label class="kek">kék</label>
+                    <br>
+                    <input type="checkbox" value="fekete">
+                    <label class="feka">fekete</label>
+                    <br>
+            </fieldset>
+            <fieldset>
+                <legend><b>Valasszon mindegyikből egyet</b></legend>
+                <label>Kedvenc automárka</label>
+                <select size="4" multiple>
+                    <option value="suzuki">Suzuki</option>
+                    <option value="suzuki">Bmw</option>
+                    <option value="suzuki" selected>Mercedes</option>
+                    <option value="suzuki">Mclaren</option>
 
-            </select>
-            <p>
-                <label>Kedvenc zenei stilus</label>
+                </select>
+                <p>
+                    <label>Kedvenc zenei stilus</label>
 
-                <input type="Music style">
-                <datalist id="Music">
-                    <option value="rock">Rock</option>
-                    <option value="Pop">Pop</option>
-                    <option value="Rap">Rap</option>
-                    <option value="Hip-Hop">Hip-hop</option>
-                </datalist>
-            </p>
-        </fieldset>
-        <fieldset class="tovabb">
-            <legend><b>További vélemények</b></legend>
-            <textarea name="" id="" rows="8" cols="50">Ide várjuk válaszát</textarea>
-        </fieldset>
+                    <input type="Music style">
+                    <datalist id="Music">
+                        <option value="rock">Rock</option>
+                        <option value="Pop">Pop</option>
+                        <option value="Rap">Rap</option>
+                        <option value="Hip-Hop">Hip-hop</option>
+                    </datalist>
+                </p>
+            </fieldset>
+            <fieldset class="tovabb">
+                <legend><b>További vélemények</b></legend>
+                <textarea name="" id="" rows="8" cols="50">Ide várjuk válaszát</textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Értékelés</legend>
+                <label>Százalékos értékelés</label>
+                <br>
+                <input type="range" min="0" max="100" id="csuszka" onchange="ertekkirat()">
+                <p id="csuszkaertek">
+            
+                </p>
+            </fieldset>
+
             <input type="button" value="OK" class="adatok" title="Ezzel a gombbal veglegesen elmenti az ürlapot!">
             <input type="submit" class="adatok" title="Ezzel a gombbal beküldi!">
             <button class="adatok" title="Ezzel a gombbal kilép!">Kilépés</button>
             <input type="reset" value="Adatok törlése" class="adatok" title="Ezzel a gombbal törli az adatokat!">
-    </form>
-</div>
-    
+        </form>
+    </div>
+    <script>
+        function ertekkirat() {
+            document.getElementById("csuszkaertek").innerHTML = document.getElementById("csuszka".value);
+        }
+    </script>
+
 </body>
 
 

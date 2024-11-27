@@ -3,6 +3,7 @@ body
 background-image: url('https://coolbackgrounds.io/images/backgrounds/white/white-trianglify-b79c7e1f.jpg');
 background-size: cover;
 background-repeat: no-repeat;
+min-width:500px;
 }
 .zold
 {
@@ -26,6 +27,7 @@ color:green;
     color:white;
     border-style: solid;
     border-color: black;
+    text-shadow: 2px 2px 4px #000000;
 }
 .h
 {
@@ -37,6 +39,7 @@ color:green;
 .iskolai
 {
     text-decoration: underline;
+    text-shadow: 2px 2px 4px #000000;
 }
 .nev
 {
@@ -57,6 +60,7 @@ color:green;
 .nem
 {
     text-decoration: underline;
+    text-shadow: 2px 2px 4px #000000;
     
 }
 .adatok
@@ -70,14 +74,18 @@ color:green;
 .div
 {
     text-align: center;
-    border-style: solid;
+    border-style:solid;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     
 }
-
+#csuszka
+{
+    width:100%;
+}
