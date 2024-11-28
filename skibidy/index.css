@@ -34,34 +34,39 @@ color:green;
     border-style: solid;
     text-align: center;
     text-decoration: underline;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px rgb(0, 255, 242), -2px -2px -2px rgb(223, 0, 30);
+    
 }
 .iskolai
 {
     text-decoration: underline;
     text-shadow: 2px 2px 4px #000000;
+    
 }
 .nev
 {
     text-decoration: underline;
     text-shadow: 2px 2px 4px #000000;
+    
 }
 
 .email
 {
     text-decoration: underline;
     text-shadow: 2px 2px 4px #000000;
+    
 }
 .szuletesi
 {
     text-decoration: underline;
     text-shadow: 2px 2px 4px #000000;
+    
 }
 .nem
 {
     text-decoration: underline;
     text-shadow: 2px 2px 4px #000000;
-    
+   
 }
 .adatok
 {
@@ -70,8 +75,10 @@ color:green;
     margin-left: 5px;
     margin-top: 10px;
     text-shadow: 2px 2px 4px #000000;
+   
+    
 }
-.div
+#div
 {
     text-align: center;
     border-style:solid;
@@ -83,8 +90,24 @@ color:green;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
-    
+    background-color: rgba(240, 240, 240, 0.8);
+     
 }
+div#div
+{
+background-color: rgb(238, 255, 2,0.8);/*!important;*/
+
+}
+div#divclass
+{
+background-color: rgb(255, 0, 0) ;
+
+}
+
+
+
+
+
 #csuszka
 {
     width:100%;
