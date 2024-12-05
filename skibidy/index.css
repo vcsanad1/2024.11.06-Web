@@ -113,6 +113,12 @@ background-color: rgb(255, 0, 0) ;
     width:100%;
 }
 fieldset img{
-    width:100px;
-    height: 100px;
+    width:200px;
+height: 200px;
+}
+#skid{
+    display: flex;
+    /*justify-content: space-between;*/
+    /*flex-direction:row-reverse;*/
+    flex-wrap:wrap;
 }
