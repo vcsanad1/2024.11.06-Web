@@ -1,31 +1,38 @@
 #linkek {
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     background-color: #333;
     padding: 10px 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 }
 
 #linkek a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 10 15px;
     padding: 5px 10px;
+    
 }
 
 #linkek a:hover {
     background-color: #555;
     border-radius: 5px;
+    justify-content:space-around;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
-.kartya {
+.kartya1{
     display: grid;
     grid-template-columns: repeat(auto-fit);
     gap: 20px;
     padding: 20px;
 }
 
-.kartya {
+.kartya{
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 10px;
@@ -57,14 +64,14 @@
 }
 
 
-.kartya {
+.kartya1{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 30fr));
     gap: 20px;
     padding: 20px;
 }
 
-.kartya {
+.kartya{
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 10px;
