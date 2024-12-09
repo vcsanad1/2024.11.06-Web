@@ -1,0 +1,86 @@
+#linkek {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+#linkek a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+
+#linkek a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+
+.kartya {
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
+    gap: 20px;
+    padding: 20px;
+}
+
+.kartya {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.kartya img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+#linkek {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+#linkek a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+
+#linkek a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+
+.kartya {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 30fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.kartya {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.kartya img {
+    width: 100%;
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+
+}
+h3
+{
+position:unset;
+}
