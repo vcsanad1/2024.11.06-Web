@@ -1,0 +1,58 @@
+body{
+    background-color: red;
+}
+.container
+{
+display: grid;
+grid-template-columns: auto auto auto;
+
+}
+.left{
+    background-color:rgba(7, 62, 171, 0.6);
+    border:1px solid black;
+    padding: 100px;
+}
+.center{
+    background-color:rgba(4, 239, 86, 0.6);
+    border:1px solid black;
+    padding: 100px;
+}
+.right{
+    background-color: rgba(0, 94, 244, 0.6);
+    border:1px solid black;
+    padding: 100px;
+}
+.container div:hover{
+    background-color: rgb(0, 0, 150);
+    color: rgb(203, 0, 186);
+    border-radius: 30px;
+}
+
+@media(max-width:480px){
+.container{
+    grid-template-columns: 50% 50% ;
+    
+}
+}
+
+
+
+
+/*Képernyo szélességére*/
+/*@media (min-width: 768px){
+body{
+    background-color: green;
+}
+}*/
+
+@media (max-width: 768px){
+    body{
+        background-color: green;
+    }
+    .container{
+        grid-template-columns: 50% 50% ;
+    }
+    .right{
+        grid-column:  span 2;
+    }
+    }
