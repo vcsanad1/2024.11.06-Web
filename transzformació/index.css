@@ -1,0 +1,43 @@
+body{
+    background-color: beige;
+}
+div{
+    background-color: burlywood;
+    border: 1px solid black;
+    height: 60px;
+    width: 100px;
+    display: inline-block;
+    margin: 3vw;
+}
+#forgatas1{
+    border-radius: 10px 0px 0px 0px;
+    transform: rotate(-60deg);
+}
+#forgatas2{
+    border-radius: 10px 0px 0px 0px;
+    transform: rotate(0.1turn);
+}
+#forgatas3{
+    border-radius:10px 0px 0px 0px ;
+    transform: rotateY(30deg);
+}
+/*Nagyitas*/
+#nagyitas1{
+    transform: scale(1.5);
+}
+#nagyitas2{
+    transform: scale(.5);
+}
+#nagyitas3{
+    transform: scaleY(10%);
+}
+/*Eltolas*/
+#eltolas1{
+    transform:translate(30px,30px);
+}
+#eltolas2{
+    transform: translate(20px,3vw);
+}
+#eltolas3{
+    transform:translateX(50%);
+}
