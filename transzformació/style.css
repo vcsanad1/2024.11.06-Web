@@ -1,14 +1,11 @@
-#linkek a {
+nav a {
     color: white;
     text-decoration: none;
     margin: 10 15px;
     padding: 5px 10px;
     
 }
-
-
-
-#linkek {
+nav{
     display: flex;
     justify-content: center;
     justify-content: space-around;
@@ -16,18 +13,40 @@
     padding: 10px 0;
 }
 
-
-#linkek a:hover{
-    background-color: #555;
+nav a{
+    text-align: center;
+}
+nav a:hover{
+    background-color: #d8d4d4;
     border-radius: 5px;
     text-shadow: 5px 5px 5px black;
     letter-spacing: 1px;
-    text-decoration: underline black;
-    transition: backgroud-color 3s;
-    transition: underline 3s;
-
+    text-decoration: underline rgb(0, 0, 0);
+    transition: text-decoration 5s; 
 }
-nav a{
+#linkek a{
     width:33%;
 }
 
+div a{
+    border: 1px solid #424040;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    margin-left: 10px;
+    gap: 20px;
+    padding: 20px;
+}
+#div{
+    margin-left: 800px;
+    margin-right: 800px;
+    width:100px;
+    
+    
+}
+div:hover{
+    border-radius:10px 0px 0px;
+    transition: transform 3s;
+    transform: rotate(360deg);
+}
