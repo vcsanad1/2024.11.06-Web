@@ -1,0 +1,33 @@
+#linkek a {
+    color: white;
+    text-decoration: none;
+    margin: 10 15px;
+    padding: 5px 10px;
+    
+}
+
+
+
+#linkek {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+
+#linkek a:hover{
+    background-color: #555;
+    border-radius: 5px;
+    text-shadow: 5px 5px 5px black;
+    letter-spacing: 1px;
+    text-decoration: underline black;
+    transition: backgroud-color 3s;
+    transition: underline 3s;
+
+}
+nav a{
+    width:33%;
+}
+
