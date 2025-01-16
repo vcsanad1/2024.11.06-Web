@@ -1,0 +1,77 @@
+div div{
+    width: 50px;
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.megjelenes{
+    animation: lathatosag;
+    animation-duration: 3s;
+}
+
+.mozgatas{
+    animation: mozgatas;
+    animation-duration: 6s;
+    animation-iteration-count: 4;
+    animation-delay:1s;
+}
+.forgatas{
+    animation:forgatas;
+    border-top-left-radius: 5px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+@keyframes lathatosag{
+    from{
+            opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+
+    };
+}
+
+@keyframes mozgatas{
+    0%{
+        transform: translate(0);
+    }
+    50%{
+        transform: translateX(500px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+
+
+@keyframes forgatas {
+ 0%{
+    transform: rotate(0deg);
+ }   
+ 100%{
+    transform: rotate(360deg);
+ }
+}
+@keyframes csillag{
+    0%{
+        transform: rotate(50deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.csillag{
+    animation:csillag;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin-bottom: 200px;
+}
+.ketto{
+    display: grid;
+    grid-template-rows: 20% 20%;
+    
+}
