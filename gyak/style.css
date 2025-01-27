@@ -7,6 +7,7 @@ header{
     color: white;
     text-align: center;
     padding: 20px 0;
+    padding-bottom: 60px;
 }
 .container{
     display: flex;
@@ -35,17 +36,48 @@ footer {
     width: 100%;
     bottom: 300;
 }
-.kartya:hover{
-    transform: rotateX(a);
-    transition: transform 1s;
-    transition-timing-function: infinit;
+footer p{
+animation:felkuszas 1s ;
 }
-.kep{
-    transform-origin: left;
-    transform: scaleX(1);
-    transition: 0.8s;
-    transition-timing-function: infinit;
-    width:8%;
-    height: 8%;
-    border-radius: 5px 5px 5px 5px;
+@keyframes felkuszas{
+    0%{
+        transform:translateY(25px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.kartya:hover{
+    transform: scale(1.04);
+    transition: transform 0.2s;
+    transition-timing-function: infinite;
+}
+.kartya:hover img{
+    transform: scale(1.01);
+    
+}
+.kep {
+    position:absolute;
+    animation: mozog 4s infinite; 
+    width: 5%;
+    height: 5%;
+    border-radius: 5px;
+    
+}
+
+@keyframes mozog {
+    0% {
+        left: 40%;
+        transform: scaleX(1); 
+    }
+    50% {
+        left:60%;
+        transform: scaleX(-1); 
+    }
+    100% {
+        left: 40%;
+        transform: scaleX(1); 
+    }
 }
