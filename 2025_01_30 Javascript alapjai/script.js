@@ -28,13 +28,12 @@ Iterácio-ciklusok
 */
 
 /*Elágazás */
-if(a==s){
-    console.log('${a} =? ${s} A két ertek egyenlo! ')
+if(a === s) {
+    console.log(`${a} =? ${s} A két érték egyenlő!`);
 }
 else{
-    console.log('${a} =? ${s} A két nem egyenlo!' )
+    console.log(`${a} =? ${s} A két érték nem egyenlő!`);
 }
-
 /*Ciklusok*/
 /*Számlalos -For
 //Elol tesztelos-while
@@ -64,4 +63,14 @@ for(var i = 1; i < 10; i++) {
 }
 console.log(s);
 
+let rnd=Math.random();
+console.log(rnd);
 
+let szamz=Math.random()+5*2;
+console.log(szamz);
+
+let ja=Math.random()*6+1;
+console.log(Math.floor(ja));
+
+let ga=Math.random()*16-10;
+console.log(ga);
