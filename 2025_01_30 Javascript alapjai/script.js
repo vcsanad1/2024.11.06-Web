@@ -74,3 +74,4 @@ console.log(Math.floor(ja));
 
 let ga=Math.random()*16-10;
 console.log(ga);
+
