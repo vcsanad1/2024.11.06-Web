@@ -32,8 +32,8 @@ console.log(typeof(`yes`));
 console.log(isNaN(parseInt("asada")))
 
 console.log(`-----------------------------------------------------`)
-
-
-
 let tomb2=[2,"alma",3,'korte',true]
 console.log(tomb2)
+
+
+
