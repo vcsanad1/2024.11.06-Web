@@ -43,6 +43,13 @@ function main() {
     console.log(Tombatlag(tombb));
     
 
+    // tombfeltoltes -visszaadja a feltoltott tombot
+    // fv -lebego pontos, logikai, egesz-index
+    
+    // hány darab negativ szám van?
+    //pozitiv szamok atlaga
+    // Ha van benne 10 es hányadik  helyen
+
 }
 main();
 
