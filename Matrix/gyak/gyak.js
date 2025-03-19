@@ -110,15 +110,14 @@ function mellegAtlo(matrixx) {
     }
     return osszeg;
 }
-function Csere(i,j, matrixx) {
-    matrixx[i][j]=matrixx[j][i];
-}
 function Transzponalas(matrixx) {
+    let tMatrix=matrixx;
     for (let i = 0; i < matrixx.length; i++) {
         for (let j = 0; j < matrixx[j].length; j++) {
-            Csere(i,j, matrixx);
+            tMatrix[j][i]=matrixx[i][j];
         }        
     }
+    return tMatrix;
 }
 
 function main(){
@@ -151,6 +150,7 @@ function main(){
     console.log(kulonbseg);
     
     const transz=Transzponalas(matrixx);
+    console.log(transz);
 
 }   
 main();
