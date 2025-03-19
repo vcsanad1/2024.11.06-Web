@@ -1,59 +1,50 @@
-
-
-let tomb = [];
-let db = 0;
-let dobasok = [];
-
-for (let i = 0; i < 10; i++) {
-    db = Math.floor(Math.random() * 7);
-    dobasok.push(db);
-    for (let j = 0; j < db; j++) {
-        let rando = Math.floor(Math.random() * 26 + 11);
-        dobasok.push(rando);
-    }
-
+function random(a,b) {
+    return Math.floor(Math.random()*(b-a+1)+a)
 }
-console.log(`Hány kör: ${db} Dobas 1: ${dobasok} `);
 
-let maxi = 0;
-for (let i = 0; i < db.length; i++) {
+function tombfeltolt(n) {
+    let tomb=[];
+    for (let i = 0; i < n; i++) {
+        tomb.push(random(2,23));
+    }
+    return tomb;
+}
+function atlagg(tomb) {
+    let osszeg=0;
+    for (let i = 0; i < tomb.length; i++) {
+        osszeg+=tomb[i]
+    }
+    return osszeg/tomb.length;
+}
+function PozitivE(tomb) {
+    let pozitiv=[];
+    for (let i = 0; i < tomb.length; i++) {
+    if (tomb[i]%2===0) {
+        pozitiv.push(tomb[i]);
+    }        
+    }
+    return pozitiv;
+}
+function Nempozitiv(tomb) {
+    let negativ=[];
+    for (let i = 0; i < tomb.length; i++) {
+        if (tomb[i]%2!==0) {
+            negativ.push(tomb[i]);
+        }
+    }
+    return negativ
+}
+function main() {
+    let tomb=tombfeltolt(14);
+    console.log(tomb);
 
-    if (dobasok > maxi) {
-        maxi = dobasok;
-    }
-    console.log(maxi);
+    let atlag=atlagg(tomb);
+    console.log(atlag.toFixed(2));
 
-}
-let maxii = 0;
-for (let i = 0; i < dobasok.length; i++) {
-    if (dobasok[db] < dobasok[i]) {
-        db = i;
-    }
-}
-console.log(`A legnagyobb dobas hanyadik korbe: ${db}`)
+    let pozitiv=PozitivE(tomb);
+    console.log(pozitiv);
 
-let atlagok = [];
-for (let i = 0; i < dobasok.length; i++) {
-    let darab = dobasok[i];
-    let osszeg = 0;
-    for (let j = i + 1; j < i + darab; j++) {
-        osszeg += dobasok[j];
-    }
-    if (darab != 0) {
-        atlagok.push(osszeg / darab)
-    }
-    else {
-        atlagok.push
-    }
-    atlagok.push[osszeg / darab];
-    i += darab;
+    let negativ=Nempozitiv(tomb);
+    console.log(negativ);
 }
-console.log(`Az atlag:${atlagok}`);
-let max = 0;
-for (let i = 0; i < atlagok.length; i++) {
-    if (atlagok[i]>atlagok[max]) {
-        max=i;
-    }
-    
-}
-console.log(`Az atlag: ${max}`);
+main();
