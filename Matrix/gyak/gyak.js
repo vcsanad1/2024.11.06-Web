@@ -113,7 +113,7 @@ function mellegAtlo(matrixx) {
 function Transzponalas(matrixx) {
     let tMatrix=matrixx;
     for (let i = 0; i < matrixx.length; i++) {
-        for (let j = 0; j < matrixx[j].length; j++) {
+        for (let j = i; j < matrixx[i].length; j++) {
             tMatrix[j][i]=matrixx[i][j];
         }        
     }
@@ -150,7 +150,7 @@ function main(){
     console.log(kulonbseg);
     
     const transz=Transzponalas(matrixx);
-    console.log(transz);
+    console.table(transz);
 
 }   
 main();
