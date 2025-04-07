@@ -6,7 +6,7 @@ function Szoveg(szoveg) {
     for (let i = 1; i < n.length; i+=11) {
             const adat={
                 nev:sorok[i],
-                matrix: matrixKialakitas()
+                matrix: matrixKialakitas(sorok,i)
             }
 
 
