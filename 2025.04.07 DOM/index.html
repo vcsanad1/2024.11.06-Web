@@ -4,14 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div id="fodiv">
-        <p id="lorembekezd">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        <p id="lorembekezd" class="border">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
         Velit maxime, nesciunt amet beatae harum eos corporis iusto facilis incidunt animi sequi repellat, esse et?
          Molestiae harum ut quos animi laudantium?</p>
         </div>
-        
+        <div id="kepDiv" class="border">
+            <img src="mozog.webp" alt="mozgo kutya" class="border">
+        </div>
+        <button onmouseover="keretezes()">
+            Keretezés
+        </button>
+
+        <div style="background-color: green; padding: 5px;">
+        <p>
+            <label>Azonosito</label>
+            <input type="text" id="azonosito" placeholder="pl. Név">
+        </p>
+        <p>
+            <label>Azonosito</label>
+            <input type="password" id="jelszo" placeholder="pl. Jelszó">
+        </p>
+        <p>
+          <button onclick="harmadikOra()">Belépés</button>  
+        </p>
+        </div>
+
+        <div style="background-color: green; padding: 5px;">
+            <p>
+                <label>a:</label>
+                <input type="number" id="a" >
+            </p>
+            <p>
+                <label>b:</label>
+                <input type="number" id="b" >
+            </p>
+            <p>
+                <label>c:</label>
+                <input type="number" id="c" >
+            </p>
+            <p>
+              <button onclick="MasodfokuMegoldas()">Belépés</button>  
+            </p>
+            </div>
+
     <script src="index.js"></script>
 
 </body>

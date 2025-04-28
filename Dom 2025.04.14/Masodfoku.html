@@ -6,32 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Matematika Megoldasok</h1>
     
-    <h2>Masodfoku megoldo keplet</h2>
+    <select style="margin: 5px;" id="select">
+        <option value="merc">Mercedes</option>
+        <option value="audi">Audi</option>
+        <option value="bmw">Bmw</option>
+        <option value="vol">Volwagen</option>
+        <option value="suz">Suzuki</option>
+    </select><br>
+    <button onclick="focus()">Nyomd meg</button>
+    <label id="labell"></label>
 
-    <div id="masodkofuDiv">
-            <p>
-                <label>a:</label>
-                <input type="number" id="aszam" value="2">
-            </p>
-            <p>
-                <label>b:</label>
-                <input type="number"id="bszam" value="1">
-            </p>
-            <p>
-                <label>c:</label>
-                <input type="number" id="cszam" value="2">
-            </p>
-            <p>
-                <button onclick="masodfoku()">Megoldas</button>
-            </p>
-            <p id="megoldasokSzama">Megoldas szama:</p>
-            <p>
-                <label id="megoldas1">x1</label>
-                <label id="megoldas2">x2</label>
-            </p>
-    </div>
     <script src="masodfok.js"></script>
 </body>
 </html>
