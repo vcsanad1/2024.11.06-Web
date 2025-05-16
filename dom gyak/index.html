@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hegységek és hegycsucsok teszt</h1>
+    <p>1. Melyik hegysegunknek a legmagasabb pontja <b>Csoványos?</b></p>
+    <input type="radio" class="elso" name="kutya" value="Badacsony">
+    <label>Badacsony</label><br>
+    <input type="radio" class="elso" name="kutya" value="Bakony">
+    <label>Bakony</label><br>
+    <input type="radio" class="elso" name="kutya" value="Borzsony">
+    <label>Borzsony</label><br>
+    <input type="radio" class="elso" name="kutya" value="Bukk">
+    <label >Bukk</label><br>
+
+    <p>2. Melyik a hegysegnek a legmagasabb csucsa?</p>
+    <select id="selected"  size="5">
+        <option  value="Nagy Bálvány">Nagy Bálvány</option>
+        <option  value="Nagy-Hideghegy">Nagy-Hideghegy</option>
+        <option  value="Nagy-Inoc">Nagy-Inoc</option>
+        <option  value="Nagy-Milie">Nagy-Milie</option>
+        <option  value="Nagy-Tubes">Nagy-Tubes</option>
+    </select>
+
+    <p>3.Melyek a Dunántúli-középhegység részei?</p>
+    <p><em>5 helyes válasz van!</em></p>
+    <input type="checkbox" value="Budai-hegység" name="kozephegy">
+    <label>Budai-hegység</label>
+    <input type="checkbox" value="Cserhát"  name="kozephegy">
+    <label>Cserhát</label><br>
+    <input type="checkbox"value="Gerecse"  name="kozephegy">
+    <label style="margin-right:39px;">Gerecse</label>
+    <input type="checkbox" value="Keszthelyi-hegység"  name="kozephegy">
+    <label>Keszthelyi-hegység</label><br>
+    <input type="checkbox" value="Mecsek"  name="kozephegy">
+    <label style="margin-right:40px;">Mecsek</label>
+    <input type="checkbox" value="Pilis"  name="kozephegy">
+    <label>Pilis</label><br>
+    <input type="checkbox" value="Vértes"  name="kozephegy">
+    <label style="margin-right:49px;">Vértes</label>
+    <input type="checkbox" value="Zselic"  name="kozephegy">
+    <label>Zselic</label>
+
+   <p>4.Melyik hegysegunkben talalhato <b>Galyateto?</b></p>
+   <input type="text" style="border-radius: 5px;" name="galya">
+
+   <p>5.Melyik térkép jelzi pirossal a <b>Bükk-hegyseg</b>et?</p> 
+   <p  id="betu" style="border: 2px solid grey ; padding-left: 8px; padding-right: 8px; background-color: rgb(226, 219, 219); width: 100px;">A</p>
+   <p><em>Kattins a kivalasztott képre!</em></p>
+   <input type="image"  src="1.png"  onclick="KepValt('A')"><label style="font-weight: bold;">a</label>
+   <input type="image"  src="2.png"  onclick="KepValt('B')"><label style="font-weight: bold;">b</label>
+   <input type="image"  src="3.png"  onclick="KepValt('C')"><label style="font-weight: bold;">c</label>
+
+   <p>6. Milyen magas hegycsúcs az <b>Írottkő</b>?</p>
+   <p id="csuszkavalt">882 méter</p><br>
+   <span>700</span>
+   <input type="range" oninput="Csuszkavalt()" min="700" max="1014" value="882" id="csuszka" style="width: 380px;">
+   <span>1014</span>
+
+   <p>7. <b>Hány darab 1000 méter feletti</b> hegycsúcs van Magyarországon?</p>
+   <input type="number" min="0" max="10" value="0" id="7"> darab
+   <br>
+    <button style="margin-left: 500px;" onclick="Fasz()">Ellenoriz</button>
+
+
+    <script src="xd.js"></script>
+</body>
+
+</html>
